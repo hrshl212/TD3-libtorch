@@ -3,7 +3,7 @@ TD3 deep reinforcement learning algorithm using libtorch in simple environment o
 
 This is an implementation of the twin-delayed deep deterministic (TD3) policy gradient algorithm for the C++ API of Pytorch. It uses a simple TestEnvironment to test the algorithm. Below is a small visualization of the environment, the algorithm is tested in.
 
-![This is an image](/img/epoch_4.gif)
+![This is an image](/img/epoch_30.gif)
 
 
 Fig. 1: The agent in training during epoch 30.
