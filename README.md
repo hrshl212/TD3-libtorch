@@ -1,5 +1,5 @@
 # TD3-Pytorch-C++-
-TD3 algorithm using libtorch in simple environment of finding shortest distance between two points.
+TD3 algorithm using libtorch in simple environment of finding shortest distance between two points. The environment is taken from https://github.com/mhubii/ppo_libtorch
 
 This is an implementation of the twin-delayed deep deterministic (TD3) policy gradient algorithm for the C++ API of Pytorch. It uses a simple TestEnvironment to test the algorithm. Below is a small visualization of the environment, the algorithm is tested in.
 
