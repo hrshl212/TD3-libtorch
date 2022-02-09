@@ -6,31 +6,33 @@ This is an implementation of the twin-delayed deep deterministic (TD3) policy gr
 ![This is an image](/img/epoch_4.gif)
 
 
-Fig. 1: The agent in testing mode.
+Fig. 1: The agent in training during epoch 30.
 
-Build
-You first need to install LibTorch. For a clean installation from Anaconda, checkout this short tutorial, or this tutorial, to only install the binaries.
+You first need to install LibTorch. I used the version 1.4.0+cpu.
 
 Do
-
+```
 mkdir build
 cd build
 cmake -DCMAKE_PREFIX_PATH=/absolut/path/to/libtorch ..
 make
-Run
+```
+## Run
 Run the executable with
-
+```
 cd build
 ./train_ppo
+```
+
 It should produce something like shown below.
 
 
+![This is an image](/img/epoch_4.gif)
+![This is an image](/img/epoch_11.gif)
 
 Fig. 2: From left to right, the agent for successive epochs in training mode as it takes actions in the environment to reach the goal.
 
 The algorithm can also be used in test mode, once trained. Therefore, run
 
-cd build
-./test_ppo
-Visualization
+# Visualization
 The results are saved to data/data.csv and can be visualized by running python plot.py.
