@@ -17,7 +17,7 @@ cd build
 cmake -DCMAKE_PREFIX_PATH=/absolut/path/to/libtorch ..
 make
 ```
-## Run
+# Run
 Run the executable with
 ```
 cd build
@@ -32,7 +32,6 @@ It should produce something like shown below.
 
 Fig. 2: From left to right, the agent for successive epochs in training mode as it takes actions in the environment to reach the goal.
 
-The algorithm can also be used in test mode, once trained. Therefore, run
 
 # Visualization
 The results are saved to data/data.csv and can be visualized by running python plot.py.
